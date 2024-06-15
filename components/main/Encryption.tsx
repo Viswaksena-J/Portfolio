@@ -17,7 +17,7 @@ const Encryption = () => {
                 <span>
                     Performance
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>{" "}&{" "}</span>
-                    security
+                    securityx
                 </span>
             </motion.div>
         </div>

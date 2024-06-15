@@ -84,6 +84,7 @@ export const Skill_data = [
     {
       name: "Discord",
       src: "/instagram.svg",
+      link: 'https://www.instagram.com/viswaksena__jayam/'
     },
     {
       name: "Facebook",
@@ -219,14 +220,14 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
+      skill_name: "Python",
+      Image: "/Python.svg.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Docker",
-      Image: "/docker.webp",
+      skill_name: "Github",
+      Image: "/github.webp",
       width: 70,
       height: 70,
     },
@@ -244,8 +245,8 @@ export const Skill_data = [
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
+      skill_name: "Postman",
+      Image: "/postman-icon.webp",
       width: 60,
       height: 60,
     },

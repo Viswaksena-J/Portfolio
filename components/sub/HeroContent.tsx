@@ -23,20 +23,21 @@ const HeroContent = () => {
             </motion.div>
             <motion.div
                 variants={slideInFromLeft(0.5)}
-                className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] h-auto w-auto'
+                className='flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] h-auto w-auto'
             >
                 <span>
-                    Providing
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                    project experience
+                    Hey, I am
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Viswaksena </span>
+                    student at <br></br> <div className='text-4xl'>Amrita Vishwa Vidyapeetham</div>
                 </span>
             </motion.div>
             <motion.p
                 variants={slideInFromLeft(0.8)}
                 className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
-                I&apos;m a Full Stack Software Engineer with experience in Website,
-            Mobile, and Software development. Check out my projects and skills.
+                {/* I&apos;m a Full Stack Software Engineer with experience in Website,
+            Mobile, and Software development. Check out my projects and skills. */}
+            I learn and code beautifully simple things, and I love what I do.
             </motion.p>
             <motion.a
                 variants={slideInFromLeft(1)}

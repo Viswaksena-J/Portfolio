@@ -1,5 +1,6 @@
 import { Socials } from '@/constants'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
                     alt='logo'
                     height={70}
                     width={70}
-                    className='cursor-pointer hover:animate-slowspin'
+                    className='cursor-pointer hover:animate-spinslow'
                 />
                 <span className='font-bold ml-[10px] hidden md:block text-gray-300'>
                     My Portfolio
@@ -33,13 +34,15 @@ const Navbar = () => {
             </div>  
             <div className='flex flex-row gap-5'>
                 {Socials.map((socials) => (
-                    <Image
-                        src={socials.src}
-                        alt={socials.name}
-                        key={socials.name}
-                        height={24}
-                        width={24}
-                    />
+                    <Link href={socials.link || ''} key={socials.name}>
+                        <Image
+                            src={socials.src}
+                            alt={socials.name}
+                            key={socials.name}
+                            height={24}
+                            width={24}
+                        />
+                    </Link>
                 ))}
             </div>
         </div>
